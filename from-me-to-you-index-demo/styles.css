@@ -1,0 +1,137 @@
+html {
+  font-size: 18px;
+}
+
+body {
+  background: #fff;
+  color: #000;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 1.55;
+  margin: 0;
+}
+
+.page {
+  margin: 0 auto;
+  max-width: 1040px;
+  padding: 1.5rem;
+}
+
+.notice,
+footer {
+  background: #f7f7f7;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.95rem;
+  margin: 0;
+  padding: 0.75rem 1.5rem;
+}
+
+.notice {
+  border-bottom: 1px solid #ccc;
+}
+
+footer {
+  border-top: 1px solid #ccc;
+}
+
+footer p {
+  margin: 0 auto;
+  max-width: 1040px;
+}
+
+h1,
+h2 {
+  font-weight: bold;
+  line-height: 1.25;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 1rem 0 0.75rem;
+}
+
+h2 {
+  font-size: 1.45rem;
+  margin: 1.5rem 0 0.5rem;
+}
+
+p {
+  margin: 0 0 1rem;
+  max-width: 780px;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #999;
+  margin: 1.5rem 0;
+}
+
+a {
+  color: #0000ee;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #551a8b;
+}
+
+a:focus,
+a:hover {
+  color: #000;
+}
+
+.table-wrap {
+  overflow-x: auto;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 1rem 0;
+  min-width: 720px;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #999;
+  padding: 0.5rem 0.6rem;
+  text-align: left;
+  vertical-align: top;
+}
+
+th {
+  background: #eee;
+  font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+  background: #fafafa;
+}
+
+th:first-child,
+td:first-child {
+  width: 13rem;
+}
+
+th:last-child,
+td:last-child {
+  width: 8rem;
+}
+
+.small-note {
+  font-size: 0.95rem;
+}
+
+@media (max-width: 700px) {
+  html {
+    font-size: 17px;
+  }
+
+  .page {
+    padding: 1rem;
+  }
+
+  .notice,
+  footer {
+    padding: 0.75rem 1rem;
+  }
+}
